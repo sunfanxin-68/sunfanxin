@@ -1,5 +1,18 @@
 public class Variables {
 	public static void main (String[] args) {
+		
+		datatype variableName = value;  //声明一个变量
+
+		dataType variableName;  //声明没有值的变量
+
+		varuableName = newValue;  //分配或者更改变量值 说明变量名称
+
+
+		String greetings = "Greetings, earthlings!"; //声明一个String
+
+		String request = new String("Take me to your leader."); //更改String的变量
+		
+		
 		int age = 28; //int数据类型用于存储整数值。这意味着它可以存储所有正负整数和零。
 		 
 		char grade = 'A'; //char用于存储单个字符。该字符必须用单引号括起来。
@@ -48,6 +61,8 @@ public class Variables {
 	        names[1] = "cat";
 	        System.out.println(s); // s是"XYZ"还是"cat"?
 	        System.out.println(names[1]);
+	        
+	        
 		
 	}
 }
