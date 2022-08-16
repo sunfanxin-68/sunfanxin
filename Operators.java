@@ -1,7 +1,7 @@
 public class Operators {
 	public static void main(String[] args) {
 	
-	/* 
+	/*
 	 x < y  小于
 	 x > y  大于
 	 x <= y 小于等于
@@ -31,12 +31,12 @@ public class Operators {
       boolean statementB = false;
       System.out.println(!statementA); // A为true则输出 false
       System.out.println(!statementB); // b为flase  则输出true
-      */
+     */ 
 	    int a = 1;
 	    int b = 2;
 	    int c = 3;
 
-	    boolean statementA = !true;  a为true 
+	    boolean statementA = !true;  //a为true 
 	    boolean statementB = a == c;  //a不等于c false
 	    boolean statementC = a + b >= b || c == b;  //a + b >= b 为true 则输出true
 	    boolean statementD = !(true && a == c - b);   //true && a == c - b 为true ，!(）则 false
