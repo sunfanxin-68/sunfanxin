@@ -1,4 +1,11 @@
 public class SavingsAccount{
+	/*
+	 * publicandprivate关键字用于定义代码的哪些部分可以访问其他类、方法、构造函数和实例变量。
+封装是一种用于对其他类隐藏实现细节的技术。它的目的是创建小的逻辑捆绑。
+this关键字可用于指定实例变量和局部变量之间的区别。
+局部变量只能在定义它们的范围内使用。
+this关键字可用于在编写类时调用方法。
+	 */
 
   public String owner;
   public int balanceDollar;

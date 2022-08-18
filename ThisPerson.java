@@ -4,12 +4,12 @@ public class ThisPerson{
   public int fitness;
 
   public ThisPerson(int inputAge){
-    this.age = inputAge;
+    this.age = inputAge;  //将实例变量转为局部变量 this调用其他方法
     this.wisdom = inputAge * 5;
     this.fitness = 100 - inputAge;
   }
 
-  public void setAge(int newAge){
+  public void setAge(int newAge){  //Setter的目的就是要用一个参数设定实例变量的值
     this.age = newAge;
   }
 
@@ -21,9 +21,9 @@ public class ThisPerson{
     this.fitness = newFitness;
   }
 
-  public void hasBirthday(){
+  public void hasBirthday(){  //用来调用mutator方法
     
-    this.setAge(this.age + 1);
+    this.setAge(this.age + 1);  //用this来调用
     this.setWisdom(this.wisdom + 5);
     this.setFitness(this.fitness - 3);
 
